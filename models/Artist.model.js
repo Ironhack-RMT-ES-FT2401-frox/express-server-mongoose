@@ -19,6 +19,10 @@ const artistSchema = new mongoose.Schema({
   genre: {
     type: [String], // el valor va a ser un array de strings
     enum: ["rock", "indie", "alternative", "metal", "pop", "country"]// permite definir los UNICOS posibles valor que tendrá esta propiedad
+  },
+  colaborations: {
+    type: [mongoose.Schema.Types.ObjectId],
+    ref: "Artist"
   }
 })
 
