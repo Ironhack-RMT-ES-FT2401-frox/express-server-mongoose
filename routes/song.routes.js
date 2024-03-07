@@ -56,3 +56,6 @@ router.get("/", async (req, res, next) => {
 
 
 module.exports = router
+
+// comentario en dev
+console.log("probando cosas nuevas en dev")
