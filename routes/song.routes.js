@@ -59,3 +59,4 @@ module.exports = router
 
 // comentario en dev
 console.log("probando cosas nuevas en dev")
+console.log("ejemplo de una nueva ruta")
